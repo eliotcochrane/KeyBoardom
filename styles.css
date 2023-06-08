@@ -1,0 +1,60 @@
+* {
+    font-family: "Futura";
+}
+
+:root {
+    --primary: #900C3F;
+    --secondary: #C70039;
+    --tertiary: #DAF7A6;
+    --quaternary: #FF5733;
+}
+
+.centered {
+    margin: auto;
+    width: 50%;
+}
+
+header {
+    display: inline-block;
+    margin-left: 3%;
+}
+
+#sub-title {
+    font-weight: thin;
+    margin-top: -7%;
+    margin-left: 50%;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary);
+    overflow: hidden;
+}
+
+li.nav-item {
+    float: left;
+    align-items: center;
+}
+
+li.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.nav-item a:hover {
+    background-color: var(--secondary);
+}
+
+li.green-hover a:hover{
+    background-color: var(--tertiary);
+    color: var(--primary);
+}
+
+h1 {
+    font-size: 50px;
+}
